@@ -66,4 +66,4 @@ for (let x = 0; x < topics.length; x++){
 
 let currentLocation;
 let mapPlacement = document.getElementById("map");
-let map = new google.maps.Map(map, mapOpt);
+let map = new google.maps.Map(mapPlacement, mapOpt);
