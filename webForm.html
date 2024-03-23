@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Individual Case Project</title>
+
+</head>
+<body>
+<h1>CS 250 Projects</h1>
+<nav>
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./featured.html">Featured Projects</a></li>
+        <li><a href="./all.html">All Projects</a></li>
+        <li><a href="./about.html">About the Dev</a></li>
+        <li><a href="./webForm.html">Definitely a Form</a></li>
+    </ul>
+</nav>
+
+<main>
+    <p>Hello! This is a practice form. It does not submit data</p>
+    <form id="testForm">
+        <label>Enter a name:</label>
+        <input type="text" id="name">
+        <label>What kind of comment:</label>
+        <select id="commentType">
+            <option default>Please choose a comment type</option>
+            <option>Error</option>
+            <option>Feedback</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label>Enter a comment:</label>
+
+        <textarea id="comment"></textarea>
+
+        <br>
+        <br>
+        <br>
+        <h2>Topics! Select some topics!</h2>
+        <div id="unchosenTopics">
+            <div class="topics"><input type="radio" value="programming">Programming</div>
+            <div class="topics"><input type="radio" value="Design">Design</div>
+            <div class="topics"><input type="radio" value="art">Art</div>
+            <div class="topics"><input type="radio" value="music">Music</div>
+            <div class="topics"><input type="radio" value="construction">Construction</div>
+
+        </div>
+
+        <h2>Chosen Topics</h2>
+        <div id="chosenTopics">
+
+        </div>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

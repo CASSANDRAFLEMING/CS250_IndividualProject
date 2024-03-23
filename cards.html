@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Individual Case Project</title>
+    <script async src="cards.js"></script>
+</head>
+<body>
+<h1>CS 250 Projects</h1>
+<nav>
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./featured.html">Featured Projects</a></li>
+        <li><a href="./all.html">All Projects</a></li>
+        <li><a href="./about.html">About the Dev</a></li>
+        <li><a href="./webForm.html">Definitely a Form</a></li>
+        <li><a href="./cards.html">Cards - CH 8 Object Oriented Programming</a></li>
+
+    </ul>
+</nav>
+
+<main>
+    <h1>Flash Cards</h1>
+    <p>Use the form to generate a flash card and add it to the page</p>
+
+    <form>
+        <label>Flash Card Name:</label>
+        <input type="text" id="name">
+
+        <label>Flash Card Type:</label>
+        <select id="type">
+            <option default>Pick a topic</option>
+            <option>Programming</option>
+            <option>Design</option>
+            <option>Project Management</option>
+        </select>
+
+        <label>Enter your flashcard text: </label>
+        <textarea id="desc"></textarea>
+
+        <button type="submit" id="submit">Create your flashcard!</button>
+    </form>
+
+    <h2>Flash Cards</h2>
+    <div id="flashcards"></div>
+
+</main>
+
+</body>
+</html>
