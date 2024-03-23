@@ -65,4 +65,11 @@ for (let x = 0; x < topics.length; x++){
 //Chapter 10
 
 
+let mapPlacement = document.getElementById("map");
+function initMap(){ //,
+    let pasco = {lat: -25.344, lng: 131.036);
+    let map = new google.maps.Map(
+        mapPlacement, {zoom: 4, center: pasco}
 
+    )
+}
