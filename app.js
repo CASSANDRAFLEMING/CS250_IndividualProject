@@ -66,12 +66,3 @@ for (let x = 0; x < topics.length; x++){
 
 
 
-let currentLocation;
-let mapPlacement = document.getElementById("map");
-function initMap(){
-    let pasco = {lat: 46.241539, lng: -119.117393}
-    let map = new google.maps.Map(
-        mapPlacement, {zoom: 11, center: pasco}
-
-    )
-}
