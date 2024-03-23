@@ -22,7 +22,7 @@ class createCard{
     }
 
     createCookie(){
-        document.cookie=`cardName${this.name}&cardType=${this.type}&cardDesc=${this.desc}`
+        document.cookie=`cardName${this.name}&cardType=${this.type}&cardDesc=${this.desc}; domain=whisky.com; secure; expires=Fri, 29 Mar 2024 00:00:00 GMT`
     }
 }
 
