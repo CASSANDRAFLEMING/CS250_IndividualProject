@@ -63,4 +63,7 @@ for (let x = 0; x < topics.length; x++){
 }
 
 //Chapter 10
-let map = new google.maps.Map(element, mapOpt);
+
+let currentLocation;
+let mapPlacement = document.getElementById("map");
+let map = new google.maps.Map(map, mapOpt);
