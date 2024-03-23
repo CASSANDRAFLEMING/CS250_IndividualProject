@@ -71,7 +71,7 @@ let mapPlacement = document.getElementById("map");
 function initMap(){
     let pasco = {lat: 46.241539, lng: -119.117393}
     let map = new google.maps.Map(
-        mapPlacement, {zoom: 4, center: pasco}
+        mapPlacement, {zoom: 11, center: pasco}
 
     )
 }

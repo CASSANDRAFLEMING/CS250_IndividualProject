@@ -13,6 +13,10 @@ class createCard{
     addCard() {
         console.log(this.name);
     }
+
+    createCookie(){
+        document.cookie=`cardName${this.name}&cardType=${this.type}&cardDesc=${this.desc}`
+    }
 }
 
 let flashcards = document.getElementById("flashcards");
