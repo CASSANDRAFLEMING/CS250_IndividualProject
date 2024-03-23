@@ -61,3 +61,7 @@ for (let x = 0; x < topics.length; x++){
         }
     })
 }
+
+//Chapter 10
+
+
