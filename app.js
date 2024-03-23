@@ -63,5 +63,4 @@ for (let x = 0; x < topics.length; x++){
 }
 
 //Chapter 10
-
-
+let map = new google.maps.Map(element, mapOpt);
